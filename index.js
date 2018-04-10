@@ -43,3 +43,55 @@ class App extends React.Component {
 }
 
 ReactDOM.render(<App/>, document.getElementById('root'));
+
+
+
+import router from 'react-router';
+
+const { withRouter: withRouterLegacy } = router;
+
+export const withRouter = (WrappedComponent) => {
+    @withRouterLegacy
+    class WithRouter extends Component {
+        static contextTypes = {
+            router: PropTypes.shape({
+                history: PropTypes.shape({
+                    push: PropTypes.func.isRequired,
+                    replace: PropTypes.func.isRequired,
+                    createHref: PropTypes.func.isRequired
+                }).isRequired
+            }).isRequired,
+        };
+        push = (propsTo) => {
+            const to = { ...propsTo };
+            if (to.query) {
+                to.search = stringifyQuery(to.query);
+                delete to.query;
+            }
+            this.context.router.history.push(to);
+        }
+        replace = (propsTo) => {
+            const to = { ...propsTo };
+            if (to.query) {
+                to.search = stringifyQuery(to.query);
+                delete to.query;
+            }
+            this.context.router.history.replace(to);
+        }
+        render() {
+            const { location } = this.props;
+            location.query = parseQuery(location.search);
+            return (
+                <WrappedComponent
+                    {...this.props}
+                    router={{
+                        ...this.context.router,
+                        push: this.push,
+                        replace: this.replace
+                    }}
+                />
+            );
+        }
+    }
+    return WithRouter;
+};
