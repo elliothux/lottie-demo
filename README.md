@@ -170,4 +170,4 @@ ReactDOM.render(<App/>, document.getElementById('root'));
 然后运行`parcel ./index.html`, 打开浏览器, 将会看到我们的动画, 是不是非常酷~ 
 
 除了能够播放和暂停, Lottie 还为我们提供了更加精细的动画控制方法和事件钩子, 有兴趣的小伙伴参考: [GitHub - airbnb/lottie-web: Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/](https://github.com/airbnb/lottie-web)
-本教程的所有源码和AE工程文件都在我的 GitHub: [HuQingyang (胡青杨) · GitHub](https://github.com/HuQingyang) 欢迎关注、交流、拍砖~~搞基~~
+本教程的所有源码和AE工程文件都在我的 GitHub: [HuQingyang (胡青杨) · GitHub](https://github.com/HuQingyang) 欢迎关注、交流、拍砖、~~搞基~~
