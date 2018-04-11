@@ -116,3 +116,4 @@ fabric.properties
 /.cache/
 .cache/
 .idea/
+/package-lock.json
