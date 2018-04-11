@@ -22,7 +22,7 @@ Lottie 是 Airbnb 开源的一个支持 Web、Android、iOS 以及 ReactNative�
 然后进入AE, 默认会看到这个界面:  
 ![](pic/B1FBA8BC-41CE-4A61-A20C-5BD60BDEFFD0.png)  
 
-每个区域的作用分别是:
+每个区域的作用分别是:
 * 项目: 管理当前项目以及一些项目参数的预览
 * 资源: 导入到 AE 中的所有外部资源如图像等在这里进行统一管理
 * 图层: 在这里为每一个图层添加/编辑关键帧和属性
@@ -123,7 +123,7 @@ Yooooooooooooooooooo! 是不是感觉自己很厉害~
 </body>
 ```
 新建 index.js:
-```js
+```jsx harmony
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Lottie from 'react-lottie';
