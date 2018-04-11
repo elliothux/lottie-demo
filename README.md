@@ -4,7 +4,7 @@
 ## 一. Intro to Lottie
 Lottie 是 Airbnb 开源的一个支持 Web、Android、iOS 以及 ReactNative等平台的动画库，它可以结合 AE 和 Bodymovin 来快速实现跨平台动画。
 
-其实对于普通的动效和简单动画, 使用原生代码实现已经足够, Lottie 是为了**复杂动画**而生的, 下面来看几个 Lottie 实现的几个动画例子:
+其实对于普通的动效和简单动画, 使用原生代码实现已经足够, Lottie 是为了**复杂动画**而生的, 下面来看几个 Lottie 实现的几个动画例子:  
 ![](pic/1%20VYA3Hx-eO7qDCr0ONlIlhQ.gif)
 这种复杂的动画, 如果需要手写代码来实现, 将会很繁琐且效率低下, 这正是 Lottie 大展身手的地方。
 
