@@ -21,6 +21,7 @@ Lottie 是 Airbnb 开源的一个支持 Web、Android、iOS 以及 ReactNative�
 
 然后进入AE, 默认会看到这个界面:  
 ![](pic/B1FBA8BC-41CE-4A61-A20C-5BD60BDEFFD0.png)  
+
 每个区域的作用分别是:
 * 项目: 管理当前项目以及一些项目参数的预览
 * 资源: 导入到 AE 中的所有外部资源如图像等在这里进行统一管理
