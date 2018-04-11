@@ -100,8 +100,8 @@ Yooooo! 比刚刚自然多了!
 现在进行最后一步, 颜色变换。颜色属性在图层面板的内容、矩形、填充里更改, 其他地方跟上述一样, 无非是再次添加几个关键帧。相信聪明的你一点已经学会了, 这里就不再赘述啦。
 最终的曲线如图:
 ![](pic/9A70E82D-B138-481F-912D-B88B3293387B.png)
-最终完成效果:
-![](pic/%E5%90%88%E6%88%90-1%201.gif)
+最终完成效果:  
+![](pic/%E5%90%88%E6%88%90-1%201.gif)  
 Yooooooooooooooooooo! 是不是感觉自己很厉害~ 
 
 ## 三. 渲染动画
@@ -113,7 +113,7 @@ Yooooooooooooooooooo! 是不是感觉自己很厉害~
 ![](pic/DEBB2B77-C6B0-4E48-837C-54FC3F953660.png)
 
 导出文件后, 新建一个项目, 把 data.json 移到项目目录, 安装所需依赖。
-这里我们使用 Lottie 的 React Binding, 运行 `npm install -S react react-dom react-lottie babel-core babel-plugin-transform-class-properties parcel`。
+这里我们使用 Lottie 的 React Binding, 运行 `npm install -S react react-dom react-lottie babel-core babel-plugin-transform-class-properties parcel-bundler`。
 新建 index.html:
 ```html
 <body>
